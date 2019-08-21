@@ -1,3 +1,7 @@
-struct SPMLibrary {
-    var text = "Hello, World!"
+public struct Something {
+    public init(text: String) {
+        self.text = text
+    }
+    
+    var text: String
 }
